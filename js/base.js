@@ -93,10 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 let button = document.querySelector('.repair__button-flex');
 
-// Добавляем обработчик события 'click' на эту кнопку
 button.addEventListener('click', function() {
-    // При каждом клике мы будем переключать класс 'rotated',
-    // который применяет или убирает стиль поворота
     this.classList.toggle('rotated');
 });
 
