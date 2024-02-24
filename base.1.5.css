@@ -151,6 +151,9 @@ body{
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
     }
+    .repair__button-flex{
+        justify-content: center;
+    }
     .extra{
         display: none;
     }
