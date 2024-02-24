@@ -125,7 +125,7 @@ body{
     .menu__brand-repair.swiper-wrapper{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        justify-items: center;
+        justify-items: end;
         margin-top: 10px;
     }
 
@@ -151,9 +151,6 @@ body{
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
     }
-    /*.repair__button-flex{*/
-    /*    display: block;*/
-    /*}*/
     .extra{
         display: none;
     }
